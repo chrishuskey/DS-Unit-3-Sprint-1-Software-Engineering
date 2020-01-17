@@ -40,7 +40,7 @@ environment with `pipenv`, installing our dependencies, and making some classes.
   - Function to set notebook display options.
   - Function to split dates ("MM/DD/YYYY", etc.) into multiple columns
   - Your idea here! (You will implement more later in the week as well)
-3) Register for a [test PyPI account](https://test.pypi.org/account/register/)
+3) ✓ Register for a [test PyPI account](https://test.pypi.org/account/register/)
 4) Publish your package as `lambdata-yourusername` (to avoid conflicts)
 5) Start a Python notebook, and install your package with
   `!pip install --index-url https://test.pypi.org/simple/ lambdata-yourusername`
@@ -51,7 +51,7 @@ We'll step through in lecture - building and publishing a package requires
 - `python setup.py sdist bdist_wheel` (build the actual package)
 - `twine upload --repository-url https://test.pypi.org/legacy/ dist/*`
 
-`twine` itself can be installed with `pipenv install -d twine` so it is a
+✓ `twine` itself can be installed with `pipenv install -d twine` so it is a
 development dependency.
 
 Many of the utility functions can be implemented with the right clever calls
