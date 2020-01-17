@@ -4,13 +4,14 @@ Places for your code (and dependencies) to live.
 
 ## Learning Objectives
 
-- Understand and follow Python namespaces and imports
-- Create a Python package and install dependencies in a dedicated environment
+✓ Understand and follow Python namespaces and imports
+✓ Create a Python package and install dependencies in a dedicated environment
 
 ## Before Lecture
 
-Install [Anaconda](https://www.anaconda.com/distribution) on your local machine
-if you haven't already, and read the official documentation for
+✓ Install [Anaconda](https://www.anaconda.com/distribution) on your local machine
+if you haven't already
+✓ Read the official documentation for
 [Python modules](https://docs.python.org/3.7/tutorial/modules.html).
 
 ## Live Lecture Task
