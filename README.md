@@ -1,6 +1,8 @@
 # DS-Unit-3-Sprint-1-Software-Engineering
 Software Engineering and Reproducible Research for Data Science
 
+**MY LAMBDATA REPOSITORY (Chris Huskey)**: *https://github.com/chrishuskey/DS-Unit-3-lambdata*
+
 ## The World Beyond Notebooks
 
 Python Notebooks are great - they let us explore data and communicate and share
@@ -19,4 +21,4 @@ making the lambdata repo yourself - it will *not* be a fork, and you can have
 more independence and "creative control** in where you take it. You should still
 fork and open a PR to this repo, and edit this file to link to your lambdata.
 
-**My lambdata repository**: *https://github.com/chrishuskey/DS-Unit-3-lambdata*
+**MY LAMBDATA REPOSITORY (Chris Huskey)**: *https://github.com/chrishuskey/DS-Unit-3-lambdata*
