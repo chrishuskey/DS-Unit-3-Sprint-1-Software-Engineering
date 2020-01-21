@@ -98,7 +98,7 @@ Make a subclass of `Product` named `BoxingGlove` that does the following:
 - Add a `punch` method that returns "That tickles." if the weight is below 5,
   "Hey that hurt!" if the weight is greater or equal to 5 but less than 15, and
   "OUCH!" otherwise
-  
+
 Example test run:
 
 ```python
@@ -176,7 +176,7 @@ The last lines let you test by running `python acme_report.py`. You should see
 output like:
 
 ```
-$ python acme_report.py 
+$ python acme_report.py
 ACME CORPORATION OFFICIAL INVENTORY REPORT
 Unique product names: 19
 Average price: 56.8
@@ -213,7 +213,7 @@ if __name__ == '__main__':
 
 If you run the tests you should see output like:
 ```
-$ python acme_test.py 
+$ python acme_test.py
 .
 ----------------------------------------------------------------------
 Ran 1 test in 0.000s
@@ -232,7 +232,7 @@ Complete the following:
   length 30, and `test_legal_names` which checks that the generated names for a
   default batch of products are all valid possible names to generate (adjective,
   space, noun, from the lists of possible words)
-  
+
 *Hint* - `test_legal_names` is the trickiest of these, but may not be as bad as
 you think. Check out `assertIn` from `unittest`, and remember that Python is
 pretty handy at string processing. But if you get stuck, move on and revisit.
@@ -262,9 +262,14 @@ career here, you'll have to answer the following:
 - What, in your opinion, is an important part of code reviews? That is, what is
   something you pay attention to when you review code, and that you appreciate
   when others do the same for your code?
+
+  Answer: (1) Comments!: Clear comments throughout, that explain what major functions, etc. do, and used frequently enough that I don't need to spend >5 min. deciphering what any individual function is actually for (intended to do)...
+
 - We have an awful lot of computers here, and it gets pretty confusing with
   slightly different things running on all of them. How could containers help us
   improve this situation?
+
+  Answer: Putting everything in containers and running everything from containers would eliminate different performance/results across each different hardware device (due to hardware differences and also software differences, e.g. different OS's, different versions of Python), because everything needed is included in the container (essentially a mini- standalone OS that includes all packages needed to run a program on any hardware device).
 
 Answer both of these questions (baseline ~5 sentences) here in text.
 
